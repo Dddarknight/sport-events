@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sport-events"
+version = "0.1.0"
+description = ""
+authors = ["Dddarknight <9801677@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sport_events"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.6.1"
+sqlalchemy = "^1.4.44"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+sport-events = "sport_events.scripts.server:main"
