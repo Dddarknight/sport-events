@@ -4,9 +4,13 @@ An app for parsing the information from https://www.sofascore.com/.
 Time of preparing - 6 hours.
 
 ## Instalattion and launch
-```
+``` 
 $ git clone https://github.com/Dddarknight/sport-events
 $ cd sport-events
+$ touch .env
+
+# You have to fill .env file. See .env.example.
+
 $ pip install poetry
 $ make install
 $ make build
